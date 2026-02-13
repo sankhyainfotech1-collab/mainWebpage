@@ -2083,9 +2083,9 @@ section {
 }
 
 /* remove accidental spacing */
-section, .footer, .hero {
+/* section, .footer, .hero {
   margin: 0;
-}
+} */
 
 /* ===== GLOBAL TECH BACKGROUND ===== */
 #mr-tech-bg{
@@ -2095,24 +2095,8 @@ section, .footer, .hero {
   pointer-events: none;
 }
 
-/* content above background */
+/* content above background
 .navbar, section, footer, .hero{
   position: relative;
   z-index: 2;
-}
-/* ===== HERO BACKGROUND ONLY ===== */
-
-.hero {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  background: #05070f;
-}
-
-
-
-/* keep hero text above animation */
-.hero-content {
-  position: relative;
-  z-index: 2;
-}
+} */
